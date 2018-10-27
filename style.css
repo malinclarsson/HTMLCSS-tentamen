@@ -1,0 +1,43 @@
+/*------ Uppgift 1 ------*/
+#firstP{
+  color: red;
+  font-size: 24px;
+}
+/*------ Uppgift 2 ------*/
+.box2{
+  display: flex;
+}
+/*------ Uppgift 7 ------*/
+.center7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*------ Uppgift 10 ------*/
+#centerText{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+/*------ Uppgift 12 ------*/
+.box12{
+  display: flex;
+  flex-wrap: wrap;
+}
+.item12{
+  flex-grow: 1;
+}
+@media (max-width: 540px) {
+  .item12{
+    width: 100%;
+  }
+}
+/*------ Uppgift 13 ------*/
+.reverseBox{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  align-items: flex-end;
+  justify-content: center;
+
+}
